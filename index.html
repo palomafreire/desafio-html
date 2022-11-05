@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML</title>
+</head>
+<body>
+        
+    
+    <h1 align="center">Curso básico de HTML </h1>
+    <hr />
+    <h2 id="inicio">Índice</h2>
+    <ol>
+        <li><a href="#definicao" title="Clique aqui e confira">O que é HTML?</a></li>
+        <li><a href="#exemplos" title="Clique aqui e confira">Principais TAGS</a></li>
+        <ol>
+            <li><a href="#texto" title="Clique aqui e confira">Tags de texto</a></li>
+            <li><a href="#imagem" title="Clique aqui e confira">Tags de imagem</a></li>
+            <li><a href="#link" title="Clique aqui e confira">Tags de link</a></li>
+            <li><a href="#lista" title="Clique aqui e confira">Tags de lista</a></li>
+            <ol>
+                <li><a href="#ordenada" title="Clique aqui e confira">Lista ordenada</a></li>
+                <li><a href="#nao_ordenada" title="Clique aqui e confira">Lista não ordenada</a></li>
+            </ol>
+        </ol>
+
+    </ol>
+
+    <hr />
+
+    
+    <ol>
+        <h2 id="definicao"><li>O que é HTML?</h2>
+        <a href="#inicio"><small>Voltar</small></a>
+            
+            <p align="justify">HTML é uma linguagem de <strong>marcação</strong>, utilizada para criar páginas na internet. Mas o que é uma linguagem de marcação? É uma linguagem que opera por meio de tags (rótulos). Ela não tem comandos lógicos, como <i>if-else</i>, ou loops, como <i>while</i> e <i>for</i>. Com HTML, você monta o esqueleto de um site, utilizando rótulos para indicar parágrafos, títulos - em hierarquia ou não -, inserir imagens, links, listas etc.</p>
+            </li>
+    
+        <h2 id="exemplos"><li>Principais TAGS</h2>
+            <a href="#inicio"><small>Voltar</small></a>
+
+            <p align="justify">As principais tags HTML são para texto, imagem, link e lista.</p>
+                <ol>
+                    <h3 id="texto"><li>Tags de texto</h3></li>
+                    <a href="#inicio"><small>Voltar</small></a>
+                    <p align="justify">As principais tags de texto são:</p>
+                    <ul>
+                        <li align="justify"><strong>p:</strong> cria um parágrafo no corpo do texto html. Pode ser formatada por meio do comando align. Principais formatações: centralizado, justificado, alinhado à direita ou à esquerda. </li>
+                        <li align="justify"><strong>h1:</strong> cria títulos. Vai de h1 a h6, sendo h6 o menor tamanho de título. </li>
+                        <li align="justify"><strong>i, u, strong e mark:</strong> <i>italico</i>, <u>subscrito</u>, <strong>negrito</strong> e <mark>destacado</mark>, respectivamente. </li>
+                        <li align="justify"><strong>small:</strong> <small>deixa o texto pequeno.</small> </li>
+                        <li align="justify"><strong>sup:</strong> <sup>deixa o texto sobrescrito.</sup> </li>
+                        <li align="justify"><strong>sub:</strong> <sub>deixa o texto subscrito.</sub> </li>
+                        <li align="justify"><strong>blockquote:</strong> <blockquote>"destaca uma citação."</blockquote> </li>
+                        <li align="justify"><strong>abbr:</strong> permite explicar uma sigla -  <abbr title="Estados Unidos da América">EUA</abbr>. </li>
+                        
+                    </ul>
+
+                    <h3 id="imagem"><li>Tags de imagem</h3></li>
+                    <a href="#inicio"><small>Voltar</small></a>
+                        <p>As principais tags de imagem são:</p>
+                        <ul>
+                            <li align="justify"><strong>img:</strong> insere imagem no corpo do html. No atributo src, você deve colocar o endereço da imagem ou o nome do arquivo, caso ela esteja no mesmo diretório do seu projeto. No atributo alt, você deve representar a imagem textualmente. Caso o navegador não consiga abrir a imagem ou o usuário tenha deficiência visual, será possível ler a descrição da imagem.</li>
+                            <img src="vale_capao.jpg" alt="Uma imagem bonita">
+                        </ul>
+                    
+                    <h3 id="link"><li>Tags de link</h3></li>
+                    <a href="#inicio"><small>Voltar</small></a>
+                    <p align="justify">As principais tags de link são:</p>
+                    <ul>
+                        <li align="justify"><strong>a:</strong> permite que você insira links no seu html. Pode ser link interno, local ou externo. No atributo href, coloca-se o endereço da página. No atributo title, o título - irá aparecer quando você passar o mouse em cima. No atributo target, você define se a página será aberta na mesma ou em outra aba.
+                            <ul>
+                                <li><a href="https://www.dio.me/en" title="Site da Dio" target="_blank">Link externo</a></li>
+                                <li><a href="about.html" title="Sobre esta página" target="_self">Link interno</a></li>
+                                <li><a href="#inicio" title="Inicio" target="self">Local ou âncora</a></li>
+                                
+                                </li>
+                            </ul>
+                            
+                    </ul>
+                    <h3 id="lista"><li>Tags de lista</h3>
+                        <a href="#inicio"><small>Voltar</small></a>
+                        <p align="justify">As listas podem ser ordenadas e não ordenadas. Nas listas ordenadas, o HTML numera automaticamente cada item da lista. Na lista não ordenada, isso não acontece. Os elementos recebem apenas uma marcação de item no lugar do número.</p>
+                            <ol>
+                                <h4 id="ordenada"><li>Lista ordenada</h4></li>
+                                <a href="#inicio"><small>Voltar</small></a>
+                                <p>Melhores livros da vida:</p>
+                                <ol>
+                                    <li>Cem anos de solidão</li>
+                                    <li>Dom Casmurro</li>
+                                    <li>A hora da estrela</li>
+                                    <li>A trégua</li>
+                                </ol>
+                                <h4 id="nao_ordenada"><li>Lista não ordenada</h4></li>
+                                <a href="#inicio"><small>Voltar</small></a>
+                                <p>Filmes para ver:</p>
+                                <ul>
+                                    <li>Argentina 1985</li>
+                                    <li>Gyuri</li>
+                                    <li>Boa sorte, Leo Grande</li>
+                                </ul>
+                            </ol>
+                        </li>
+                </ol>
+            </li>
+    </ol>
+    <p>O aprendizado é eterno. Este é apenas o primeiro passo.</p>
+    <p>Obama é presidente dos <abbr title="Estados Unidos da América">EUA</abbr></p>
+</body>
+</html>
